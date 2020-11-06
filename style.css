@@ -69,7 +69,7 @@
  /* home section styling */
 .home{
     display: flex;
-    background: linear-gradient(brown, black);
+    background: linear-gradient(crimson, black);
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
