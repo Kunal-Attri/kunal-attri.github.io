@@ -16,7 +16,6 @@ html{
 
 /* home section styling */
 .home {
-  user-select: none;
   display: flex;
   background: linear-gradient(brown, black);
   height: 100vh;
@@ -25,6 +24,7 @@ html{
   font-family: "Ubuntu", sans-serif;
 }
 .home .home-content {
+  user-select: none;
   background: white;
   border: 2px solid crimson;
   border-radius: 30px;
