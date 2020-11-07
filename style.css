@@ -16,6 +16,7 @@ html{
 
 /* home section styling */
 .home {
+  user-select: none;
   display: flex;
   background: linear-gradient(brown, black);
   height: 100vh;
