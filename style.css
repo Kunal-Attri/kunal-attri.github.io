@@ -20,3 +20,33 @@
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
+.home .home-content{
+    background-attachment: fixed;
+    background: white;
+    border: 2px solid crimson;
+    border-radius: 30px;
+    padding: 16px;
+    font-style: "Ubuntu", sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+.home .home-content img{
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    border: 8px solid #f0f0f0;
+    border-radius: 100px;
+    align-content: center;
+}
+.home .home-content p{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.home .home-content p span{
+    color: crimson;
+}
+
+.unselectable{
+    user-select: none;
+}
