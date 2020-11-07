@@ -21,7 +21,6 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .home .home-content{
-    background-attachment: fixed;
     background: white;
     border: 2px solid crimson;
     border-radius: 30px;
