@@ -49,15 +49,15 @@
 }
 .home .home-content .links {
   width: 30px;
-  margin-left: 16px;
 }
 .home .home-content ul {
   margin-left: 25px;
   display: inline-block;
 }
 .home .home-content li {
-  display: inline-block;
-  list-style: none;
+    margin-left: 16px;
+    display: inline-block;
+    list-style: none;
 }
 
 .unselectable {
