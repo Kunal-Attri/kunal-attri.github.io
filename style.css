@@ -27,8 +27,9 @@
     padding: 16px;
     font-style: "Ubuntu", sans-serif;
     color: black;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 500;
+    align-content: center;
 }
 .home .home-content img{
     width: 200px;
