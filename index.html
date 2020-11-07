@@ -23,14 +23,14 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <img src="images/kunal.png" alt="Kunal" class="kunal">
+                <img src="files/images/kunal.png" alt="Kunal" class="kunal">
                 <p class="unselectable">Kunal Att<span>ri</span></p>
                 <p class="unselectable-1"></p>
                 <br>
                 <ul>
-                    <li><a href="https://www.instagram.com/kunal.attri_"><img src="images/ig.webp" alt="instagram" class="links"></a></ul>
-                    <li><a href="https://www.linkedin.com/in/kunal-attri"><img src="images/in.png" alt="linkedin" class="links" ></a></li>
-                    <li><a href="https://github.com/kunal-attri"><img src="images/github.svg" alt="github" class="links"></a></li>
+                    <li><a href="https://www.instagram.com/kunal.attri_"><img src="files/images/ig.webp" alt="instagram" class="links"></a></ul>
+                    <li><a href="https://www.linkedin.com/in/kunal-attri"><img src="files/images/in.png" alt="linkedin" class="links" ></a></li>
+                    <li><a href="https://github.com/kunal-attri"><img src="files/images/github.svg" alt="github" class="links"></a></li>
                 </ul>
             </div>
         </div>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="line python"></div>
                     </div>
-                    <a href="#">Download CV</a>
+                    <a href="files/cv.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -132,27 +132,27 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">attrikunal19@gmail.com</div>
+                                <div class="sub-title">attrikunal16@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="contact.php">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="name" required>
                             </div>
                             <div class="field email">
-                                <input type="text" placeholder="Email" required>
+                                <input type="text" placeholder="Email" name="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject">
+                            <input type="text" placeholder="Subject" name="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Your message..." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Your message..." name="message" required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>
