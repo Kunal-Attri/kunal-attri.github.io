@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    user-select: none;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111111;
+    transform: translateX(-50%);
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    color: crimson;
+    font-size: 20px;
+    padding: 5px;
+    background: #ffffff;
+    transform: translateX(-50%);
+}
+.content {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
