@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+using namespace std;
+
 int get_integer(string msg = "Number: ") {
     int i;
     cout << msg;
@@ -15,8 +17,6 @@ int factorial(int num) {
     }
     return f;
 }
-
-using namespace std;
 
 int main() {
     while (true) {

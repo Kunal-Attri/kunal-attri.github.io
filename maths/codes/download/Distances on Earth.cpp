@@ -1,14 +1,14 @@
 #include <iostream>
 #include <math.h>
 
+using namespace std;
+
 double get_float(string msg = "Number: ") {
     double f;
     cout << msg;
     cin >> f;
     return f;
 }
-
-using namespace std;
 
 int main() {
     cout << "This code calculates distance between any two coordinates on earth. Provide following data.\n";

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 
 int get_integer(string msg = "Number: ") {
@@ -15,8 +16,6 @@ bool isodd(int num) {
     }
     return odd;
 }
-
-using namespace std;
 
 int main() {
     while (true) {

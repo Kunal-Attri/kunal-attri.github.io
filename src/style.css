@@ -59,13 +59,14 @@ html{
   width: 30px;
 }
 .home .home-content ul {
-  margin-left: 5px;
+  margin-left: 27px;
   display: inline-block;
 }
 .home .home-content li {
-    margin-left: 16px;
+    margin-left: 20px;
     display: inline-block;
     list-style: none;
+    transition: all 0.1s ease;
 }
 
 .title{
@@ -207,5 +208,8 @@ section{
   .contact .contact-content .column{
     width: 100%;
     margin-bottom: 20px;
+  }
+  .works .title::after{
+    font-size: 20px;
   }
 }
