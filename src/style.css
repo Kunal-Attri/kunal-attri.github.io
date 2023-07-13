@@ -105,6 +105,15 @@ html{
 section{
   padding: 100px 0;
 }
+.projects {
+  font-size: 28px;
+}
+.fruits {
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
 .works, .contact, footer{
   font-family: 'Poppins', sans-serif;
 }
