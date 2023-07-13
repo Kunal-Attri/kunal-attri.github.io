@@ -105,17 +105,19 @@ html{
 section{
   padding: 100px 0;
 }
-.projects {
+.works, .contact, footer{
+  font-family: 'Poppins', sans-serif;
+}
+.projects li {
   font-size: 28px;
 }
 .fruits {
   padding-left: 15px;
   padding-top: 4px;
   padding-bottom: 10px;
-  font-size: 15px;
 }
-.works, .contact, footer{
-  font-family: 'Poppins', sans-serif;
+.fruits li {
+  font-size: 15px;
 }
 .works .works-content, 
 .contact .contact-content{
