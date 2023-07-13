@@ -108,6 +108,9 @@ section{
 .works, .contact, footer{
   font-family: 'Poppins', sans-serif;
 }
+.projects {
+  text-align: justify;
+}
 .projects li {
   font-size: 28px;
 }
