@@ -122,6 +122,14 @@ section{
 .fruits li {
   font-size: 15px;
 }
+.project-lines {
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+.project-lines li {
+  font-size: 18px;
+}
 .works .works-content, 
 .contact .contact-content{
   display: block;
